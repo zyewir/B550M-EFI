@@ -1,20 +1,31 @@
-### B550M-EFI
+### B550M EFI
 
-# B550M EFI File for MacOS Sonoma 14.6.1 - Opencore
+# About EFI.zip
 
-This is my first version of the necessary files to make the ASRock B550M Steel Legend motherboard work with OpenCore 1.0.1 and macOS Sonoma 14.6.1.
+This `EFI.zip` file is the first version my EFI folder with the necessary ACPI `.aml` files, `kexts`, patches and a `config.plist` for macOS 14.6.1 and OpenCore 1.0.1 works with ASRock B550M Steel Legend motherboard with AMD Ryzen CPU.
 
-## What's included in this file?
+## What's included in this version?
 
-I have included in this zip file the necessary `config.plist` and kexts to make this motherboard run macOS with OpenCore. USB ports are mapped, and I have also added three `.aml` files in the ACPI folder to fix the restart/shutdown problem.
-This description will be updated soon, and I will add a list of the kexts and fixes that I included.
+This version includes a UTBMap.kext file with all USB ports mapped. This kext works only in conjunction with USBToolBox.kext.
 
-## Description of `config.plist` changes
+I have included three .aml files in the ACPI folder and an ACPI patch _PTS to ZPTS to fix RESTART/SHUTDOWN/SLEEP problems that I encountered with this motherboard model.
 
-This section will contain a list of all changes made in the `config.plist`, including the AMD Vanilla Patch.
+- [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
+- [LucyRTL8125Ethernet.kext](https://github.com/Mieze/LucyRTL8125Ethernet)
+- [AMDRyzenCPUPowerManagement.kext](https://github.com/trulyspinach/SMCAMDProcessor)
+- [SMCAMDProcessor.kext](https://github.com/trulyspinach/SMCAMDProcessor)
+- [AppleALC.kext](https://github.com/acidanthera/AppleALC)
+- [NVMeFix.kext](https://github.com/acidanthera/NVMeFix)
+- [USBToolBox.kext](https://github.com/USBToolBox/tool)
+- [UTBMap.kext](https://github.com/USBToolBox/tool)
+- [RestrictEvents.kext](https://github.com/acidanthera/RestrictEvents)
 
-## Description of kext files
+## Resources and links
 
-This section shows a list of all kexts used in the EFI folder, along with links to their GitHub repositories.
+[Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+[OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/)
+[OpenCore bootloader](https://github.com/acidanthera/OpenCorePkg)
+[AMD Vanilla OpenCore](https://github.com/AMD-OSX/AMD_Vanilla)
+[MaciASL](https://github.com/acidanthera/MaciASL)
 
-## My system specifications
+Last update 08/10/2024
