@@ -6,7 +6,7 @@ This `EFI.zip` file is the first version of my EFI folder, containing the necess
 
 ## What's included in this version?
 
-This version includes a UTBMap.kext file with all USB ports mapped. This kext works only in conjunction with `USBToolBox.kext`.
+This version includes a `UTBMap.kext` file with all USB ports mapped. This kext works only in conjunction with `USBToolBox.kext`.
 I have included three `.aml` files in the `ACPI` folder and an ACPI patch `_PTS to ZPTS` in `config.plist` to fix `Restart/Shutdown/Sleep` problems that I encountered with this motherboard model.
 Another patch that I included in the `config.plist` is the AMD Vanilla OpenCore patch for the Ryzen 5700X processor with 8 cores.
 
