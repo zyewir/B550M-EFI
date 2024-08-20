@@ -51,4 +51,4 @@ This file contains the latest version of all the necessary kexts.
 - [MaciASL](https://github.com/acidanthera/MaciASL)
 
 Last update 08/20/2024
-changelog: removed `alcid=11` from `boot-arg` and added `layout-id` in `DeviceProperties`
+changelog: removed `alcid=11` from `boot-args` and added `layout-id` in `DeviceProperties`
