@@ -14,6 +14,8 @@ This version includes a `UTBMap.kext` file with all USB ports mapped. This kext 
 I have included three `.aml` files in the `ACPI` folder and an ACPI patch `_PTS to ZPTS` in `config.plist` to fix `Restart/Shutdown/Sleep` problems that I encountered with this motherboard model.
 Another patch that I included in the `config.plist` is the AMD Vanilla OpenCore patch for the Ryzen 5700X processor with 8 cores.
 
+## List of kexts
+
 - [Lilu.kext](https://github.com/acidanthera/Lilu)
 - [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases)
 - [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
