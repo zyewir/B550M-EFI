@@ -2,7 +2,7 @@
 
 # Before you download
 
-If you intersted in download this file, please send e-mail to vinicius@sdf.org, so I can provide you the zip password.
+If you are interested in downloading this file, please send an email to vinicius@sdf.org, and I will provide you with the zip password.
 
 # About EFI.zip
 
@@ -26,6 +26,8 @@ Another patch that I included in the `config.plist` is the AMD Vanilla OpenCore 
 - Microphone audio contains noise artifacts.
 
 ## List of kexts
+
+This file contains the latest version of all the necessary kexts.
 
 - [Lilu.kext](https://github.com/acidanthera/Lilu)
 - [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases)
