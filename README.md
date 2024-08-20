@@ -30,4 +30,5 @@ Another patch that I included in the `config.plist` is the AMD Vanilla OpenCore 
 - [AMD Vanilla OpenCore](https://github.com/AMD-OSX/AMD_Vanilla)
 - [MaciASL](https://github.com/acidanthera/MaciASL)
 
-Last update 08/10/2024
+Last update 08/20/2024
+changelog: removed `alcid=11` from `boot-arg` and added `layout-id` in `DeviceProperties`
