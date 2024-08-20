@@ -14,6 +14,17 @@ This version includes a `UTBMap.kext` file with all USB ports mapped. This kext 
 I have included three `.aml` files in the `ACPI` folder and an ACPI patch `_PTS to ZPTS` in `config.plist` to fix `Restart/Shutdown/Sleep` problems that I encountered with this motherboard model.
 Another patch that I included in the `config.plist` is the AMD Vanilla OpenCore patch for the Ryzen 5700X processor with 8 cores.
 
+## What is working?
+
+- Restart/Shutdown and sleep are working properly.
+- DRM and graphics codecs are working properly.
+- Audio is working properly.
+
+## What is not working or what I haven't fixed yet?
+
+- Some random errors occur when trying to boot the system, causing a black screen and kernel panic.
+- Microphone audio contains noise artifacts.
+
 ## List of kexts
 
 - [Lilu.kext](https://github.com/acidanthera/Lilu)
