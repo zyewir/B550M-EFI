@@ -24,6 +24,7 @@ Another patch that I included in the `config.plist` is the AMD Vanilla OpenCore 
 
 - Some random errors occur when trying to boot the system, causing a black screen and kernel panic.
 - Microphone audio contains noise artifacts.
+- iCloud services
 
 ## List of kexts
 
