@@ -2,7 +2,7 @@
 
 # Before you download
 
-If you intersted in download this file, please send e-mail to vinicius@sdf.org so i can provide you the zip password.
+If you intersted in download this file, please send e-mail to vinicius@sdf.org, so i can provide you the zip password.
 
 # About EFI.zip
 
