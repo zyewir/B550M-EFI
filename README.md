@@ -6,7 +6,7 @@ If you intersted in download this file, please send e-mail to vinicius@sdf.org, 
 
 # About EFI.zip
 
-This `EFI.zip` file is the first version of my EFI folder, containing the necessary ACPI `.aml files`, `kexts`, `patches`, and a `config.plist` to make macOS 14.6.1 and OpenCore 1.0.1 work with the ASRock B550M Steel Legend motherboard and an AMD Ryzen CPU.
+This `EFI.zip` file is the first version of my EFI folder, containing the necessary ACPI `.aml` files, kexts, patches, and a modified `config.plist` to make macOS 14.6.1 and OpenCore 1.0.1 work with the ASRock B550M Steel Legend motherboard and an AMD Ryzen CPU.
 
 ## What's included in this version?
 
