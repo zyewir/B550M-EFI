@@ -52,7 +52,7 @@ This file contains the latest version of all the necessary kexts.
 
 ## Screenshots
 
-![About This Mac](/images/images/aboutthismac.png)
+![About This Mac](/images/aboutthismac.png)
 ![Neofetch](/images/neofetch.png)
 ![Screenshot](/images/screenshot.png)
 
