@@ -50,5 +50,11 @@ This file contains the latest version of all the necessary kexts.
 - [AMD Vanilla OpenCore](https://github.com/AMD-OSX/AMD_Vanilla)
 - [MaciASL](https://github.com/acidanthera/MaciASL)
 
+## Screenshots
+
+![About This Mac](/images/images/about%20this%20mac.png)
+![Neofetch](/images/neofetch.png)
+![Screenshot](/images/screenshot.png)
+
 Last update 08/20/2024
 changelog: removed `alcid=11` from `boot-args` and added `layout-id` in `DeviceProperties`
