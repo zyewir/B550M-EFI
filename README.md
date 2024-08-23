@@ -1,4 +1,4 @@
-### B550M EFI
+### B550M EFI folder for Hackintosh
 
 # Before you download
 
